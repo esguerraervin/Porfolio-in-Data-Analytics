@@ -586,7 +586,7 @@
             </div>
           </div>
 
-                <form
+                   <form
         action="https://formsubmit.co/89911491ecbc7c686432ff5a6c38454b"
         method="POST"
         class="contact__form grid"
@@ -611,26 +611,38 @@
               required
             />
           </div>
+      
+          <div class="contact__content">
+            <label for="contact-email" class="content__label">Email</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              class="contact__input"
+              required
+            />
+          </div>
+        </div>
+      
+        <div class="contact__content">
+          <label for="contact-message" class="content__label">Message</label>
+          <textarea
+            name="message"
+            id="contact-message"
+            rows="7"
+            class="contact__input"
+            required
+          ></textarea>
+        </div>
+      
+        <div>
+          <button type="submit" class="button button--flex contact__submit">
+            Send Message
+            <i class="uil uil-message button__icon"></i>
+          </button>
+        </div>
+      </form>
 
-            <div class="contact__content">
-              <label for="contact-message" class="content__label">Message</label>
-              <textarea
-                name="message"
-                id="contact-message"
-                cols="0"
-                rows="7"
-                class="contact__input"
-                required
-              ></textarea>
-            </div>
-
-            <div>
-              <button type="submit" class="button button--flex contact__submit">
-                Send Message
-                <i class="uil uil-message button__icon"></i>
-              </button>
-            </div>
-          </form>
         </div>
       </section>
     </main>
