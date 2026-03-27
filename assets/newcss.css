@@ -2489,8 +2489,9 @@ body.dark-theme .about__img {
 
   .about__info > div:last-child {
     grid-column: 1 / -1;
-    max-width: 180px;
-    margin: 0 auto;
+    max-width: none;
+    width: 100%;
+    margin: 0;
   }
 
   .skills__container,
